@@ -49,7 +49,7 @@
     "coverage": "nyc ava",
     "lint": "eslint && prettier --check '**/*.(html|json|md|sublime-project|ts|yml)'",
     "report": "npm run coverage && nyc report --reporter=html",
-    "test": "npm run lint && ava"
+    "test": "npm run lint && ava --fail-fast"
   },
   "keywords": [
     "task",
