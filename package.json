@@ -6,7 +6,7 @@
   "dependencies": {
     "p-finally": "^1.0.0",
     "promise-callbacks": "^3.8.1",
-    "redis": "^3.1.2"
+    "redis": "^4.3.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -47,7 +47,7 @@
     "ci:coverage": "if [ -z \"$CI\" ]; then npm run coverage; else npm run coverage-and-report; fi",
     "coverage-and-report": "npm run coverage && mkdir -p coverage && nyc report --reporter=text-lcov > coverage/lcov.info",
     "coverage": "nyc ava",
-    "lint": "eslint . && prettier --check '**/*.(html|json|md|sublime-project|ts|yml)'",
+    "lint": "eslint && prettier --check '**/*.(html|json|md|sublime-project|ts|yml)'",
     "report": "npm run coverage && nyc report --reporter=html",
     "test": "npm run lint && ava"
   },
