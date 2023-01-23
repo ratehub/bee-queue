@@ -1,3 +1,10 @@
+## 💬 What is this service/library? 
+
+This is ratehub's fork of bee-queue the project is almost abandoned, so this fork is to keep dependencies up-to-date. 
+This is used in Kafka Connector and event-service to provide job queue functionality 
+
+
+
 <a name="top"></a>
 ![bee-queue logo](https://raw.githubusercontent.com/bee-queue/bee-queue/master/bee-queue.png)
 [![npm Version][npm-image]][npm-url] [![Node.js CI](https://github.com/bee-queue/bee-queue/actions/workflows/node.js.yml/badge.svg)](https://github.com/bee-queue/bee-queue/actions/workflows/node.js.yml) [![Coverage Status][coveralls-image]][coveralls-url]
